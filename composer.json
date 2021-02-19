@@ -1,8 +1,8 @@
 {
-    "name": "firstphp/tower",
+    "name": "ichong/tower",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "狂奔的蚂蚁",
@@ -28,14 +28,14 @@
     "require": {
         "php": ">=7.2",
         "ext-swoole": ">=4.4",
-        "hyperf/framework": "1.1.*",
-        "hyperf/di": "1.1.*"
+        "hyperf/framework": "~2.0.0",
+        "hyperf/di": "~2.0.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
         "phpstan/phpstan": "^0.10.5",
-        "hyperf/testing": "1.1.*",
-        "hyperf/redis": "~1.1.0",
+        "hyperf/testing": "~2.0.0",
+        "hyperf/redis": "~2.0.0",
         "swoft/swoole-ide-helper": "dev-master"
     },
     "config": {
