@@ -120,7 +120,6 @@ interface TowerInterface
     /**
      * 获取指派给成员未完成任务
      *
-     * @remark box 为分类属性，不要使用到期日作为分类。 0代表新任务，1代表今天，2代表接下来，3代表以后
      * @param string $member_id 成员ID
      * @return mixed
      */
